@@ -1,0 +1,130 @@
+{
+  "errors": [],
+  "warnings": [],
+  "version": "4.46.0",
+  "hash": "daa46cae4bf3f549c2ad",
+  "publicPath": "/static/",
+  "outputPath": "/Users/andreas/Developer/sideprojects/frontity/frontityblog/build/static",
+  "assetsByChunkName": {
+    "frontityblog": "frontityblog.module.js",
+    "list": "list.module.js"
+  },
+  "assets": [
+    {
+      "name": "frontityblog.module.js",
+      "size": 6439289,
+      "chunks": [
+        "frontityblog"
+      ],
+      "chunkNames": [
+        "frontityblog"
+      ],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "list.module.js",
+      "size": 47361,
+      "chunks": [
+        "list"
+      ],
+      "chunkNames": [
+        "list"
+      ],
+      "info": {},
+      "emitted": false
+    }
+  ],
+  "filteredAssets": 0,
+  "entrypoints": {
+    "frontityblog": {
+      "chunks": [
+        "frontityblog"
+      ],
+      "assets": [
+        "frontityblog.module.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "namedChunkGroups": {
+    "frontityblog": {
+      "chunks": [
+        "frontityblog"
+      ],
+      "assets": [
+        "frontityblog.module.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "list": {
+      "chunks": [
+        "list"
+      ],
+      "assets": [
+        "list.module.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "chunks": [
+    {
+      "id": "frontityblog",
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "size": 1662882,
+      "names": [
+        "frontityblog"
+      ],
+      "files": [
+        "frontityblog.module.js"
+      ],
+      "hash": "d2aa9eee65c11ed53a14",
+      "siblings": [],
+      "parents": [],
+      "children": [
+        "list"
+      ],
+      "childrenByOrder": {},
+      "modules": [],
+      "filteredModules": 0,
+      "origins": []
+    },
+    {
+      "id": "list",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "size": 30184,
+      "names": [
+        "list"
+      ],
+      "files": [
+        "list.module.js"
+      ],
+      "hash": "09545dcdf4de5c603b81",
+      "siblings": [],
+      "parents": [
+        "frontityblog"
+      ],
+      "children": [],
+      "childrenByOrder": {},
+      "modules": [],
+      "filteredModules": 0,
+      "origins": []
+    }
+  ],
+  "logging": {
+    "webpack.buildChunkGraph.visitModules": {
+      "entries": [],
+      "filteredEntries": 5,
+      "debug": false
+    }
+  },
+  "children": [],
+  "generator": "loadable-components"
+}
